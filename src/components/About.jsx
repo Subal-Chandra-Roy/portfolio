@@ -38,7 +38,7 @@ const About = () => {
             </span>
 
             <h3 className="text-2xl font-bold text-gray-400 mt-10">
-              Secondrary School Certificate
+              Secondary School Certificate
             </h3>
             <h3 className="font-semibold text-gray-300 py-1">
               Saidpur Govt. Technical College

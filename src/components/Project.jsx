@@ -7,19 +7,22 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      title: "Job portal website ( Laravel )",
+      title: "Job portal website ",
+      tech:"( Laravel )",
       src: jobcraft,
       link:"https://github.com/Subal-Roy/JobCraft/tree/main"
     },
     {
       id: 2,
-      title: "Ecommerce website ( Laravel )",
+      title: "Ecommerce website",
+      tech:"( Laravel )",
       src: emart,
       link:"https://github.com/Subal-Roy/Emart"
     },
     {
       id: 3,
-      title: "Ecommerce website ( MERN )",
+      title: "Ecommerce website",
+      tech:"( MERN )",
       src: shopease,
       link:"https://github.com/Subal-Roy/ShopEase"
     },
@@ -38,9 +41,10 @@ const Project = () => {
           <p className="p-6">Check out some of my works here.</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, title, src, link }) => (
+          {projects.map(({ id, title, tech, src, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg flex flex-col items-center">
-              <h3 className="p-2 font-bold">{title}</h3>
+              <h3 className="pt-2 font-bold">{title}</h3>
+              <h3 className="font-bold">{tech}</h3>
               <img
                 src={src}
                 alt="p1"
