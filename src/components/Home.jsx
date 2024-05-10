@@ -6,13 +6,13 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white" style={{paddingTop:'110px'}}>
+    <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white sm: pt-[260px]">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center items-center justify-center h-full px-4 sm:flex-row">
         <div className="flex flex-col justify-center h-full">
           <div className="w-5/6">
           <h2 className="text-4xl sm:text-5xl font-bold text-white">I'm a Full Stack Developer</h2>
           <p className="text-gray-500 py-10 mx-w-sm">
-            I am a fresh graduate in CSE form KUET with a strong problem solving skill. With a passion for
+            I am a recent graduate in CSE form KUET with a strong problem solving skill. With a passion for
             programming and problem solving I developed my skills in languages
             like C, C++ and JavaScript. I have also explored frameworks
             like Laravel, React through some projects.
