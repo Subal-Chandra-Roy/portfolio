@@ -6,9 +6,28 @@ import laravel from "../assets/laravel.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
+import mysql from "../assets/mysql.png";
 
 const Skills = () => {
   const techs = [
+    {
+      id: 5,
+      src: laravel,
+      title: "Laravel",
+      style: "shadow-red-500",
+    },
+    {
+      id: 6,
+      src: mysql,
+      title: "MySql",
+      style: "shadow-white",
+    },
+    {
+      id: 4,
+      src: react,
+      title: "React",
+      style: "shadow-blue-400",
+    },
     {
       id: 1,
       src: html,
@@ -27,26 +46,15 @@ const Skills = () => {
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
+
     {
-      id: 4,
-      src: react,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: laravel,
-      title: "Laravel",
-      style: "shadow-red-500",
-    },
-    {
-      id: 6,
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-blue-500",
     },
     {
-      id: 7,
+      id: 8,
       src: github,
       title: "Github",
       style: "shadow-white",
