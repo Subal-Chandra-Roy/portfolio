@@ -35,7 +35,7 @@ const SocialLinks = () => {
 
         <li className="flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300">
           <a
-            href="mailto:roy1807022@gmail.com"
+            href="mailto:roy1807022@stud.kuet.ac.bd"
             className="flex justify-between items-center w-full text-white"
           >
             <>
@@ -49,8 +49,6 @@ const SocialLinks = () => {
             href="/Resume_of_Subal_Chandra_Roy.pdf"
             className="flex justify-between items-center w-full text-white"
             download={true}
-            target="_Blank"
-            rel="noreferrer"
           >
             <>
               Resume <BsFillPersonLinesFill size={30} />
