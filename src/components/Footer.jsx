@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
       </div>
       <div>
-      <a href="mailto:roy1807022@stud.kuet.ac.bd">
+      <a href="mailto:subalroy5561@gmail.com">
           <HiOutlineMail size={25} className="text-red-500" />
         </a>
       </div>
